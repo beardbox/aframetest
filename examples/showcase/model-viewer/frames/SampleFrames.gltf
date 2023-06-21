@@ -1,0 +1,166 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine glTF Exporter"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 108,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 72,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0338836648,
+				-0.0752292648,
+				-0.845020711
+			],
+			"max": [ 0,
+				1.84912622,
+				2.03673697
+			]
+		},
+		{
+			"bufferView": 2,
+			"count": 72,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 72,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 72,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 72,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SampleFrames.bin",
+			"byteLength": 4140
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 108,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 864,
+			"byteOffset": 108,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 864,
+			"byteOffset": 972,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1152,
+			"byteOffset": 1836,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 576,
+			"byteOffset": 2988,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 576,
+			"byteOffset": 3564,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "M_SM_MERGED_BP_DynamicFrame14_BaseColor.jpg"
+		}
+	],
+	"materials": [
+		{
+			"name": "M_SM_MERGED_BP_DynamicFrame14",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.498039246
+			},
+			"doubleSided": true
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_MERGED_BP_DynamicFrame14",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "SM_MERGED_BP_DynamicFrame14_11_StaticMeshComponent0",
+			"translation": [ -5.79999971,
+				0.399999976,
+				-6.19999981
+			],
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"name": "M_SM_MERGED_BP_DynamicFrame14_BaseColor",
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"name": "SampleFrames",
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "M_SM_MERGED_BP_DynamicFrame14_BaseColor",
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
